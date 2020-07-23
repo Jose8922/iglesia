@@ -1,0 +1,58 @@
+<!--Menu-->
+<div class="container-fluid bg-dark navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  navbar navbar-dark bg-dark container">
+      <a class="navbar-brand" [routerLink]="['inicio']">
+        <img src="/assets/img/portadaIce.png" width="60" height="40" class="d-inline-block align-top" alt="">
+        ICS950
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['inicio']"><p class="fas fa-home"></p>  Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['horarios']"><p class="fas fa-book-open"></p> Horarios</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['devocionales']"><p class="fas fa-bible"></p> Devocionales</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['oracion']"><p class="fas fa-hands"></p> Motivos de Oración</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['escuela-dominical']"><p class="fas fa-book-reader"></p> Escuela Dominical</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['campamento-maimara']"><p class="fab fa-accusoft"></p> Campamento Maimará</a>
+          </li>
+          <li class="nav-item dropdown" routerLinkActive="active">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Otros Ministerios</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="">Sin Actividad</a>
+              <a class="dropdown-item" href="">Sin Actividad</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="">Sin Actividad</a>
+            </div>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]="['historia']" tabindex="-1" aria-disabled="true"><p class="fas fa-church"></p> Historia</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<!--Fin de Menu-->
+
+<!--Cabecera-->
+<div class="container-fluid bg-primary text-white justify-content-center item align-items-center">
+    <div class="text-center">
+      <h1 class="display-3"><b>Iglesia Calle Salta 950</b></h1>
+      <p class="lead">Predicando el Evangelio de Jesucristo</p>
+    </div>
+</div>
+  <!--Fin de Cabecera-->
+
